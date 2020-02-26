@@ -8,7 +8,7 @@ class JqueryController extends Controller
 {
   public function deleteAction()
   {
-    $this->model->deleteProduct($_POST['id']);
+    $this->model->deleteProduct();
   }
 
   public function addAction()

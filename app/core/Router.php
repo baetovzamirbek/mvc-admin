@@ -48,13 +48,13 @@ class Router
           $path1 = 'app\controllers\JqueryController';
           $controller->$action();
         } else {
-          //View::errorCode(404);
+          View::errorCode(404);
         }
       } else {
-        //View::errorCode(404);
+        View::errorCode(404);
       }
     } else {
-      //View::errorCode(404);
+      View::errorCode(404);
     }
   }
 }

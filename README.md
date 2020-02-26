@@ -11,3 +11,4 @@ The admin panel is the primary tool to work with online store. Here you can mana
 2) Create the tables by running the queries in "ecommerce.sql"
 3) Edit app/config/db.php to match your database connection settings
 4) Upload the whole files to your web server
+5) Open "http://localhost/mvc-admin-master/"

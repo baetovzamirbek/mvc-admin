@@ -1,27 +1,27 @@
 <?php
 
 return [
-  'mvc-admin-master' => [
+  'mvc-admin' => [
     'controller' => 'main',
     'action' => 'index',
   ],
 
-  'mvc-admin-master/Jquery/delete' => [
+  'mvc-admin/Jquery/delete' => [
     'controller' => 'jquery',
     'action' => 'delete',
   ],
 
-  'mvc-admin-master/Jquery/add' => [
+  'mvc-admin/Jquery/add' => [
     'controller' => 'jquery',
     'action' => 'add',
   ],
 
-  'mvc-admin-master/Jquery/get' => [
+  'mvc-admin/Jquery/get' => [
     'controller' => 'jquery',
     'action' => 'get',
   ],
 
-  'mvc-admin-master/Jquery/update' => [
+  'mvc-admin/Jquery/update' => [
     'controller' => 'jquery',
     'action' => 'update',
   ],
